@@ -1,0 +1,198 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Shivani's Tracker Framework</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>30000</maxFrames>
+<username>ssurusa</username>
+
+<view>
+  <width>960</width>
+  <height>540</height>
+  <loc x="30" y="30"/>
+</view>
+
+<viewFPS>
+  <width>854</width>
+  <height>480</height>
+  <loc x="30" y="120"/>
+</viewFPS>
+
+<name>
+  <width>854</width>
+  <height>480</height>
+  <loc x="30" y="440"/>
+</name>
+
+<world>
+  <!-- <width>2000</width> 
+  <height>800</height> -->
+  <width>5960</width>
+  <height>540</height>
+</world>
+
+<HUD>
+	<text>a,s,d,w -> left, down, right and up respectively</text>
+	<width>350</width>
+	<height>280</height>
+	<position x="20" y="90"/>
+	<backgroundColor r="0" g="0" b="255" a="250"/>
+	<borderColor r="255" g="0" b="0" a="255"/>
+	<textColor r="255" g="0" b="0" a="0"/>
+</HUD>
+
+<HudProj>
+	<text>a,s,d,w -> left, down, right and up respectively</text>
+	<width>350</width>
+	<height>150</height>
+	<position x="500" y="50"/>
+	<backgroundColor r="0" g="0" b="255" a="250"/>
+	<borderColor r="255" g="0" b="0" a="255"/>
+	<textColor r="255" g="0" b="0" a="0"/>
+</HudProj>
+
+<greenSky>
+  <file>assets/greenSky.png</file>
+  <factor>9</factor>
+  <transparency>false</transparency>
+</greenSky>
+
+<greenClouds>
+  <file>assets/greenClouds.png</file>
+  <factor>7</factor>
+  <transparency>false</transparency>
+</greenClouds>
+
+<greenMountains>
+  <file>assets/greenMountains.png</file>
+  <factor>5</factor>
+  <transparency>false</transparency>
+</greenMountains>
+
+<greenBuildings>
+  <file>assets/greenBuildings.png</file>
+  <factor>4</factor>
+  <transparency>false</transparency>
+</greenBuildings>
+
+<greenBridge>
+  <file>assets/greenBridge.png</file>
+  <factor>3</factor>
+  <transparency>false</transparency>
+</greenBridge>
+
+<greenHouse>
+  <file>assets/greenHouse.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</greenHouse>
+
+<greenGround>
+  <file>assets/greenGround.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</greenGround>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font>
+
+<astronaut>
+  <file>assets/astronaut.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>24</frames>
+  <frameInterval>70</frameInterval>
+  <speedX>250</speedX>
+  <speedY>250</speedY>
+  <transparency>false</transparency>
+</astronaut>
+
+<flyingSaucer>
+  <file>assets/flyingSaucer.png</file>
+  <startLoc x="50" y="240"/>
+  <frames>2</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</flyingSaucer>
+
+<knightWalk>
+  <file>assets/knightWalk.png</file>
+  <startLoc x="100" y="329"/>
+  <frames>14</frames>
+  <rightframes>7</rightframes>
+  <leftframes>7</leftframes>
+  <frameInterval>150</frameInterval>
+  <imageWidth>1477</imageWidth>
+  <imageHeight>1057</imageHeight>
+  <speedX>500</speedX>
+  <speedY>500</speedY>
+  <transparency>false</transparency>
+  <chunk>
+  	<size>50</size>
+	<distance>90</distance>
+  </chunk>
+  <projectileName>Spear</projectileName>
+  <bullet>Spear</bullet>
+</knightWalk>
+
+<zombieFall>
+  <file>assets/zombieFall.png</file>
+  <startLoc x="100" y="329"/>
+  <frames>16</frames>
+  <rightframes>8</rightframes>
+  <leftframes>8</leftframes>
+  <frameInterval>550</frameInterval>
+  <imageWidth>90</imageWidth>
+  <imageHeight>175</imageHeight>
+  <speedX>000</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</zombieFall>
+
+<ghost>
+  <file>assets/ghost.png</file>
+  <startLoc x="500" y="300"/>
+  <count>12</count>
+  <frames>2</frames>
+  <rightframes>1</rightframes>
+  <leftframes>1</leftframes>
+  <frameInterval>150</frameInterval>
+  <imageWidth>120</imageWidth>
+  <imageHeight>120</imageHeight>
+  <speedX>400</speedX>
+  <speedY>200</speedY>
+  <safeDistance>250</safeDistance>
+  <transparency>false</transparency>
+</ghost>
+
+<Spear>
+  <file>assets/Spear.png</file>
+  <startLoc x="0" y="0"/>
+  <frames>2</frames>
+  <rightframes>1</rightframes>
+  <leftframes>1</leftframes>
+  <frameInterval>0</frameInterval>
+  <imageWidth>150</imageWidth>
+  <imageHeight>15</imageHeight>
+  <speedX>700</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+  <strategy>perpixel</strategy>
+  <distance>900</distance>
+  <interval>100</interval>
+</Spear>
+
+
+</GameData>
